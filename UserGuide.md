@@ -21,21 +21,15 @@ bracketed button/label names with the exact on-screen text where it differs.
 - *Account:* an email and password. Instructors and learners use different account roles.
 - *Internet:* required for sign-in, saving, sharing, and loading activities.
 
-[SCREENSHOT: the printed image target on a desk]
-
 ---
 
 ## 2. Signing in
 
 1. Launch *Quark*. The start screen appears.
-   [SCREENSHOT: Startup / login screen]
 2. *New user?* Tap *Sign Up*, enter your email + password, and confirm.
-   [SCREENSHOT: Sign Up screen]
 3. *Returning user?* Enter your credentials and tap *Log In*.
 4. After signing in you land on your *Dashboard* — Instructor or Learner depending on your
    account.
-   [SCREENSHOT: Instructor dashboard]
-[SCREENSHOT: Learner dashboard]
 5. To sign out, use the *Log Out* control on the dashboard.
 
 If login fails, check your email/password and internet connection.
@@ -49,7 +43,7 @@ Every module scene works the same way in AR:
 
 1. Open a module scene (see §4–§6).
 2. Point the camera at the *printed marker*. The play space (platform + objects) appears
-   anchored on top of it. [CLIP: aiming at marker, play space snaps into view]
+   anchored on top of it.
 3. Keep the marker in view while you work. If the marker leaves the frame, **the simulation
    freezes** and objects can't be moved — re-aim at the marker to continue. Your objects are not
    lost.
@@ -64,16 +58,13 @@ Every module scene works the same way in AR:
 
 From the Instructor Dashboard, open a module in *Instructor Build* (e.g. *Gravity — Instructor
 Build*). The full toolbar is available: *Save*, *Load*, *Share*, *Reset*, *Settings*.
-[SCREENSHOT: Instructor Build scene with full toolbar]
 
 ### 4.2 Build the scene
 
 1. *Spawn objects* using the module HUD (e.g. tap an object/prefab button).
-   [SCREENSHOT: spawn menu open]
 2. *Move / rotate / scale* an object: tap to select it, then drag, twist, or pinch.
-   [CLIP: selecting and moving an object]
 3. *Adjust physics* with the module's sliders/toggles (e.g. gravity strength, air resistance,
-   friction surface). The simulation updates live. [SCREENSHOT: parameter panel]
+   friction surface). The simulation updates live.
 4. Use *Reset* to clear the scene and start over.
 
 (Module-specific controls are listed in §7.)
@@ -81,12 +72,11 @@ Build*). The full toolbar is available: *Save*, *Load*, *Share*, *Reset*, *Setti
 ### 4.3 Save the activity
 
 Tap *Save Activity*. Your scene is stored to your account. Only you (the owner) can overwrite it.
-[SCREENSHOT: Save confirmation]
 
 ### 4.4 Share via access code
 
 1. Tap *Share Activity*. Quark publishes the activity and generates a short *access code*.
-2. The *Share overlay* displays the code. [SCREENSHOT: Share overlay showing access code]
+2. The *Share overlay* displays the code.
 3. Give this code to your learners (write it on the board, message it, etc.).
 
 ---
@@ -96,19 +86,16 @@ Tap *Save Activity*. Your scene is stored to your account. Only you (the owner) 
 ### 5.1 Add an activity by access code
 
 1. On the Learner Dashboard, find the *access code* field.
-   [SCREENSHOT: Learner dashboard with access-code field]
 2. Type the code from your instructor and tap *Confirm/Add*.
 3. The activity is added to your list. (An invalid or expired code shows
-   "Invalid or Expired Code".) [SCREENSHOT: activity added to list]
+   "Invalid or Expired Code".)
 
 ### 5.2 Play the activity
 
 1. Open the added activity (it loads in *Learner Play*). The instructor's exact setup appears.
-   [CLIP: learner opens activity, instructor's objects load on the marker]
 2. Interact with the objects and try to reach the activity's goal. You *cannot* edit or
    overwrite the instructor's activity.
 3. When you complete the goal, your *result/score* is recorded; you can view your metrics.
-   [SCREENSHOT: results / score window]
 
 ---
 
@@ -116,32 +103,27 @@ Tap *Save Activity*. Your scene is stored to your account. Only you (the owner) 
 
 From the Learner Dashboard, open a module in *Learner Build*. This is a free sandbox: spawn and
 play with objects and parameters. There is *no Save or Share* here — it's for exploration.
-[SCREENSHOT: Learner Build sandbox]
 
 ---
 
-## 7. The four modules
-
-[SCREENSHOT per module HUD: Gravity, Friction, Energy, Simple Machines]
-
+## 7. The Four Physics Modules
 ### 7.1 Gravity
 Drop, throw, and fling objects under platform-aligned gravity. Controls: *gravity strength*
 slider, *air resistance* toggle, *throw arrow* for launching. Watch how mass/air resistance
-change the motion. [CLIP: dropping vs throwing an object]
+change the motion.
 
 ### 7.2 Friction
 Build a tile map of different *surfaces* (e.g. ice, asphalt, wood). Push objects and compare how
 far they slide on each surface. Includes goal tiles, spikes, and fall edges.
-[CLIP: same push on ice vs asphalt]
 
 ### 7.3 Energy Transformation
 Connect an energy *source* through *tiles* to a *sink* (e.g. Battery→Light, Sun→Plant). A
 complete chain activates; a broken chain disables what's downstream. Move through the *stages*
-and confirm each. [CLIP: completing an energy chain]
+and confirm each.
 
 ### 7.4 Simple Machines
 Spawn levers, ramps, pulleys, gears, and seesaws. Set object *weight*, *apply force*, and
-*reset*. Explore mechanical advantage. [CLIP: a pulley/lever in action]
+*reset*. Explore mechanical advantage.
 
 ---
 
